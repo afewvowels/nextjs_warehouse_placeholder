@@ -27,7 +27,7 @@ export default function Home() {
           />
           AlienHerald
         </a>
-        <p>Created 2024</p>
+        <p>Created 2025</p>
       </footer>
     </div>
   );
