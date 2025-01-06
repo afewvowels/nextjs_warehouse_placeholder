@@ -7,9 +7,9 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Home Inventory</h1>
         <ol>
-          <li>1. Organize</li>
-          <li>2. Categorize</li>
-          <li>3. Store</li>
+          <li>Organize</li>
+          <li>Categorize</li>
+          <li>Store</li>
         </ol>
       </main>
       <footer className={styles.footer}>
