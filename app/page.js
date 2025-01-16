@@ -23,7 +23,7 @@ export default function Home() {
         </ol>
       </div>
       <footer className={styles.footer}>
-        <a
+        {/* <a
           href="https://alienherald.earth/"
           target="_blank"
           rel="noopener noreferrer"
@@ -36,7 +36,7 @@ export default function Home() {
             height={16}
           />
           AlienHerald
-        </a>
+        </a> */}
         <p>Created 2025</p>
       </footer>
     </main>
