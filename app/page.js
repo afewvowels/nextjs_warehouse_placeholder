@@ -3,15 +3,25 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
+    <main className={styles.page}>
+      <header>
         <h1>Home Inventory</h1>
+        <ul>
+          <li>Home</li>
+          <li>Bins</li>
+          <li>Items</li>
+          <li>Rooms</li>
+          <li>About</li>
+        </ul>
+      </header>
+      <div className={styles.main}>
+        <h2>Home Inventory Website</h2>
         <ol>
           <li>Organize</li>
           <li>Categorize</li>
           <li>Store</li>
         </ol>
-      </main>
+      </div>
       <footer className={styles.footer}>
         <a
           href="https://alienherald.earth/"
@@ -29,6 +39,6 @@ export default function Home() {
         </a>
         <p>Created 2025</p>
       </footer>
-    </div>
+    </main>
   );
 }
