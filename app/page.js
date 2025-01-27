@@ -12,6 +12,7 @@ export default function Home() {
           <li>Items</li>
           <li>Rooms</li>
           <li>About</li>
+          <li><a href="https://demo.homeinventory.earth">Demo</a></li>
         </ul>
       </header>
       <div className={styles.main}>
